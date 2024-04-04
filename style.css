@@ -19,7 +19,7 @@ body{
     background-color:rgb(1, 18, 39);
 }
 .logo{
-    position: relative;
+    position: relative; 
     font-size: 25px;
     font-weight: 600;
     color: #fff;
