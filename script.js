@@ -23,7 +23,7 @@ icon.addEventListener("click",()=>{
      backDelay:1000,
      loop:true
  })
-<script>
+
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
@@ -62,4 +62,4 @@ form.addEventListener('submit', function(e) {
             }, 3000);
         });
 });
-</script>
+
