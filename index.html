@@ -872,15 +872,29 @@
             </div>
 
         </div>
+        <form method="POST" id="form">
 
-        <div class="form-part">
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <button type="submit">Submit Form</button>
+
+    <div id="result"></div>
+
+</form>
+
+       <!-- <div class="form-part">
             <input type="text" placeholder="Enter Your Name">
             <input type="email" placeholder="Enter your Email">
             <input type="text"  placeholder="Enter Your Name">
             <textarea placeholder="Enter Your Message" id=""></textarea>
             <button>Submit</button>
 
-        </div>
+        </div>-->
     </div>
 
     <div class="conclusion">
